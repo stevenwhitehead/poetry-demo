@@ -1,5 +1,6 @@
 from flask import Flask, request
 from flask_restful import Resource, Api
+from ibm_db import *
 import os
 
 app = Flask(__name__)
